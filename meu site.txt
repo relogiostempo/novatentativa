@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title data-lang-title-pt>Restauro Relógios Antigos — Lisboa</title>
-  <meta name="description" content="Restauro e reparação de relógios antigos (pulso, parede, carrilhão, autómatos) — Lisboa, Cascais, Sintra. Serviços: limpeza, restauração de mostrador, peças, revisão completa." />
-  <meta name="keywords" content="restauro relógios antigos, reparação relógios Lisboa, relojoaria, relógios de bolso, carrilhão" />
+  <meta name="description" content="Restauro e reparação de relógios antigos (cuco, parede, carrilhão, autómatos, caixas musica, barometros) — Lisboa, Cascais, Sintra. Serviços: limpeza, restauro de caixas, peças, revisão completa." />
+  <meta name="keywords" content="restauro relógios antigos, reparação relógios Lisboa, relojoaria,relogios de parede, relógios de mesa, carrilhão" />
   <meta property="og:title" content="Restauro Relógios Antigos — Lisboa" />
-  <meta property="og:description" content="Reparação e restauro profissional de relógios antigos. Orçamentos rápidos — contacto: TEL_NUMBER" />
+  <meta property="og:description" content="Reparação e restauro profissional de relógios antigos. Orçamentos rápidos — contacto: TEL_934542550" />
   <meta property="og:type" content="website" />
-  <meta name="author" content="YOUR_NAME" />
+  <meta name="author" content="relogios tempo" />
   <link rel="icon" href="assets/favicon.png" />
 
   <!-- Minimal CSS: copy/paste into a separate CSS if preferred -->
@@ -300,3 +300,4 @@
   </script>
 </body>
 </html>
+
