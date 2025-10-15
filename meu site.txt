@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title data-lang-title-pt>Restauro Relógios Antigos — Lisboa</title>
+  <meta name="description" content="Restauro e reparação de relógios antigos (pulso, parede, carrilhão, autómatos) — Lisboa, Cascais, Sintra. Serviços: limpeza, restauração de mostrador, peças, revisão completa." />
+  <meta name="keywords" content="restauro relógios antigos, reparação relógios Lisboa, relojoaria, relógios de bolso, carrilhão" />
+  <meta property="og:title" content="Restauro Relógios Antigos — Lisboa" />
+  <meta property="og:description" content="Reparação e restauro profissional de relógios antigos. Orçamentos rápidos — contacto: TEL_NUMBER" />
+  <meta property="og:type" content="website" />
+  <meta name="author" content="YOUR_NAME" />
+  <link rel="icon" href="assets/favicon.png" />
+
+  <!-- Minimal CSS: copy/paste into a separate CSS if preferred -->
+  <style>
+    :root{
+      --accent:#0a525f;
+      --muted:#666;
+      --bg:#fafafa;
+      --card:#fff;
+      --maxwid:1100px;
+      --radius:8px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:var(--bg); color:#111; -webkit-font-smoothing:antialiased}
+    header{background:linear-gradient(180deg, #fff, #f7f7f8); border-bottom:1px solid #eee}
+    .wrap{max-width:var(--maxwid); margin:0 auto; padding:1rem}
+    .topbar{display:flex;align-items:center;gap:1rem;justify-content:space-between;padding:0.6rem 0}
+    .brand{display:flex;gap:0.8rem;align-items:center}
+    .brand img{height:52px;width:52px;object-fit:cover;border-radius:6px;border:1px solid #ddd}
+    .brand h1{font-size:1.05rem;margin:0}
+    nav{display:flex;gap:0.6rem;align-items:center}
+    nav a{color:var(--accent);text-decoration:none;padding:0.45rem;border-radius:6px;font-weight:600}
+    nav a:hover{background:#f0f9fa}
+    .lang-select{display:flex;gap:0.4rem;align-items:center}
+    .lang-btn{border:1px solid #ddd;padding:0.35rem 0.5rem;border-radius:6px;background:#fff;cursor:pointer}
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:1rem;align-items:stretch;padding:1rem 0}
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:0 6px 18px rgba(10,10,10,0.04);padding:1rem}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+    .services li{list-style:none;padding:0.6rem;border-radius:8px;border:1px solid #eee;background:#fff}
+    .portfolio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0.6rem;margin-top:1rem}
+    .thumb{position:relative;overflow:hidden;border-radius:8px;height:180px}
+    .thumb img{width:100%;height:100%;object-fit:cover;display:block;filter:contrast(0.98)}
+    .beforeafter{display:flex;gap:0.5rem}
+    .cta{display:flex;flex-direction:column;gap:0.6rem}
+    .btn{display:inline-block;padding:0.6rem 0.9rem;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
+    footer{border-top:1px solid #eee;margin-top:1.2rem;padding:1rem 0;background:transparent}
+    /* responsive */
+    @media(max-width:900px){.hero{grid-template-columns:1fr;}.brand img{height:44px;width:44px}}
+    /* contact form minimal */
+    form input, form textarea{width:100%;padding:0.6rem;border-radius:8px;border:1px solid #ddd;margin-top:0.4rem}
+    .meta{color:var(--muted);font-size:0.92rem}
+    /* lightbox */
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:1200}
+    .lightbox img{max-width:92%;max-height:86%;border-radius:6px;box-shadow:0 14px 40px rgba(0,0,0,0.6)}
+    /* small tweaks */
+    .tag{font-size:0.8rem;padding:0.25rem 0.45rem;border-radius:6px;border:1px solid #eee;background:#fcfffe}
+    .lead{font-size:1.02rem;color:var(--muted)}
+    .testimonial{font-style:italic;color:#333;padding:0.6rem;border-left:3px solid #eee;margin:0.6rem 0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <div class="brand">
+        <img src="assets/logo-sample.jpg" alt="logo">
+        <div>
+          <h1 data-lang="pt">Restauro Relógios Antigos</h1>
+          <div class="meta" data-lang="pt">Lisboa • Sintra • Cascais</div>
+        </div>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:1rem">
+        <nav>
+          <a href="#services" data-lang="pt">Serviços</a>
+          <a href="#portfolio" data-lang="pt">Portefólio</a>
+          <a href="#about" data-lang="pt">Sobre</a>
+          <a href="#contact" data-lang="pt">Contacto</a>
+        </nav>
+
+        <div class="lang-select">
+          <button class="lang-btn" data-lang-btn="pt">PT</button>
+          <button class="lang-btn" data-lang-btn="en">EN</button>
+          <button class="lang-btn" data-lang-btn="es">ES</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <div class="card">
+          <p class="lead" data-lang="pt">Especialistas em restauro e reparação de relógios antigos — limpeza, revisão completa, restauro de mostrador, substituição de peças e restauro de autómatos e caixas de música.</p>
+          <ul class="services" id="services">
+            <li><strong data-lang="pt">Revisão completa</strong><div class="meta" data-lang="pt">Limpeza, lubrificação, ajuste de folgas</div></li>
+            <li><strong data-lang="pt">Mostrador & ponteiros</strong><div class="meta" data-lang="pt">Restauração de mostrador, repintura quando apropriado</div></li>
+            <li><strong data-lang="pt">Peças & substituição</strong><div class="meta" data-lang="pt">Peças originais quando possível, alternativas técnicas</div></li>
+            <li><strong data-lang="pt">Carrilhões / Autómatos</strong><div class="meta" data-lang="pt">Recolocação de mecanismos, ajuste de martelos</div></li>
+          </ul>
+
+          <div style="margin-top:0.8rem">
+            <div class="testimonial" data-lang="pt">"Recebi um relógio de carrilhão do século XIX e voltou a tocar como novo — trabalho impecável." — Cliente satisfeito, Lisboa</div>
+            <div style="display:flex;gap:0.6rem;margin-top:0.6rem">
+              <a class="btn" href="#contact" data-lang="pt">Pedir Orçamento</a>
+              <a class="btn" href="#portfolio" style="background:#f7f7f7;color:var(--accent);border:1px solid #eee" data-lang="pt">Ver Portefólio</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:1rem">
+          <h3 data-lang="pt">Porquê escolher-nos?</h3>
+          <ul>
+            <li data-lang="pt">Experiência com mecanismos antigos e raros.</li>
+            <li data-lang="pt">Transparência nos orçamentos e prazos.</li>
+            <li data-lang="pt">Fotos antes/depois e relatório de intervenção.</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 data-lang="pt">Contacto</h3>
+          <div class="meta" data-lang="pt">Telefone</div>
+          <div style="font-weight:700;margin-top:0.25rem">TEL_NUMBER</div>
+          <div class="meta" style="margin-top:0.6rem" data-lang="pt">Email</div>
+          <div style="word-break:break-all;margin-top:0.25rem">EMAIL_ADDRESS</div>
+
+          <hr style="margin:0.8rem 0">
+
+          <div>
+            <strong data-lang="pt">Serviços móveis</strong>
+            <div class="meta" data-lang="pt">Recolha e entrega (Lisboa e arredores) — mediante acordo</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:1rem">
+          <h4 data-lang="pt">Horário</h4>
+          <div class="meta" data-lang="pt">Seg–Sex: 09:30–17:30 • Sáb: 09:30–13:00 • Dom: encerrado</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" style="margin-top:1rem">
+      <h2 data-lang="pt">Portefólio — Antes / Depois</h2>
+      <div class="portfolio-grid">
+        <!-- repeat thumbnails, ensure assets present -->
+        <figure class="thumb card">
+          <img src="assets/portfolio1-before.jpg" alt="antes" loading="lazy" data-full="assets/portfolio1-after.jpg">
+          <figcaption class="meta" data-lang="pt" style="padding-top:0.4rem">Relógio carrilhão — antes</figcaption>
+        </figure>
+
+        <figure class="thumb card">
+          <img src="assets/portfolio2-before.jpg" alt="antes" loading="lazy" data-full="assets/portfolio2-after.jpg">
+          <figcaption class="meta" data-lang="pt" style="padding-top:0.4rem">Relógio de bolso — após restauro</figcaption>
+        </figure>
+
+        <figure class="thumb card">
+          <img src="assets/portfolio3-before.jpg" alt="antes" loading="lazy" data-full="assets/portfolio3-after.jpg">
+          <figcaption class="meta" data-lang="pt" style="padding-top:0.4rem">Autómato — reparado</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" style="margin-top:1rem">
+      <div class="card">
+        <h2 data-lang="pt">Sobre</h2>
+        <p data-lang="pt">Com mais de 20 anos de experiência em relojoaria tradicional e restauro de mecanismos históricos. Formação em relojoaria clássica e intervenção em mostradores e caixas.</p>
+
+        <h3 style="margin-top:0.6rem" data-lang="pt">Credenciais</h3>
+        <ul>
+          <li data-lang="pt">Intervenções documentadas com fotografias e relatório técnico</li>
+          <li data-lang="pt">Colaboração com colecionadores e museus locais</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="margin-top:1rem">
+      <div class="card">
+        <h2 data-lang="pt">Contacto / Pedido de Orçamento</h2>
+        <p class="meta" data-lang="pt">Envia-nos fotos (mostrador, verso, mecanismo quando possível) e uma breve descrição do problema.</p>
+
+        <!-- OPTION A: simple mailto fallback -->
+        <div style="margin:0.6rem 0">
+          <a class="btn" href="mailto:EMAIL_ADDRESS?subject=Pedido%20de%20Or%C3%A7amento%20-%20Rel%C3%B3gio&body=Olá,%0A%0AEnvio imagens e descrição do relógio...">Enviar por Email</a>
+        </div>
+
+        <hr style="margin:0.8rem 0">
+
+        <!-- OPTION B: HTML form (needs action endpoint) -->
+        <form id="contact-form" method="POST" action="">
+          <label data-lang="pt">Nome</label>
+          <input type="text" name="name" required>
+
+          <label data-lang="pt">Email</label>
+          <input type="email" name="email" required>
+
+          <label data-lang="pt">Mensagem / descrição</label>
+          <textarea name="message" rows="5" required></textarea>
+
+          <div style="margin-top:0.6rem">
+            <small class="meta" data-lang="pt">Opcional: anexa imagens via email ou usa o link acima.</small>
+          </div>
+
+          <div style="margin-top:0.6rem">
+            <button class="btn" type="submit" data-lang="pt">Enviar</button>
+            <span style="margin-left:0.6rem" class="meta" data-lang="pt">ou liga para TEL_NUMBER</span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;gap:1rem">
+        <div>
+          <div style="font-weight:700" data-lang="pt">Restauro Relógios Antigos — Lisboa</div>
+          <div class="meta" data-lang="pt">© <span id="year"></span> YOUR_NAME — Todos os direitos reservados</div>
+        </div>
+        <div class="meta" style="font-size:0.9rem" data-lang="pt">Morada (opcional) • NIF (opcional)</div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-hidden="true"><img src="" alt=""></div>
+
+  <!-- Translations (text strings duplicated) -->
+  <script>
+    // Simple translation map (editable)
+    const translations = {
+      "pt": {
+        "title": "Restauro Relógios Antigos — Lisboa",
+        "nav": {"services":"Serviços","portfolio":"Portefólio","about":"Sobre","contact":"Contacto"},
+      },
+      "en": {
+        "title": "Antique Watch Restoration — Lisbon",
+        "nav": {"services":"Services","portfolio":"Portfolio","about":"About","contact":"Contact"},
+      },
+      "es": {
+        "title": "Restauración Relojes Antiguos — Lisboa",
+        "nav": {"services":"Servicios","portfolio":"Portafolio","about":"Sobre","contact":"Contacto"},
+      }
+    };
+
+    // manage year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // language switch
+    const langButtons = document.querySelectorAll('[data-lang-btn]');
+    function setLang(lang){
+      document.documentElement.lang = (lang === 'pt') ? 'pt-PT' : (lang==='es'? 'es-ES' : 'en-GB');
+      // toggle all elements with data-lang attribute
+      document.querySelectorAll('[data-lang]').forEach(el=>{
+        // original text in HTML is PT by default
+        // we will store PT in data-pt attribute to allow switching back
+        const key = el.getAttribute('data-lang-key') || null;
+        // if element has translations in attributes, prefer those
+        const textAttr = el.getAttribute('data-text-'+lang);
+        if(textAttr!==null){ el.textContent = textAttr; return; }
+        // else fallback to small mapping for nav
+        // (for larger sites you would externalize strings)
+      });
+      // update nav & title minimal
+      document.querySelectorAll('a[href="#services"]').forEach(a=>a.textContent = translations[lang].nav.services);
+      document.querySelectorAll('a[href="#portfolio"]').forEach(a=>a.textContent = translations[lang].nav.portfolio);
+      document.querySelectorAll('a[href="#about"]').forEach(a=>a.textContent = translations[lang].nav.about);
+      document.querySelectorAll('a[href="#contact"]').forEach(a=>a.textContent = translations[lang].nav.contact);
+      document.title = translations[lang].title;
+    }
+    langButtons.forEach(b=>{
+      b.addEventListener('click', ()=> setLang(b.getAttribute('data-lang-btn')));
+    });
+    // default language PT
+    setLang('pt');
+
+    // lightbox
+    document.querySelectorAll('.thumb img').forEach(img=>{
+      img.addEventListener('click', ()=>{
+        const src = img.getAttribute('data-full') || img.src;
+        const lb = document.getElementById('lightbox');
+        lb.querySelector('img').src = src;
+        lb.style.display = 'flex';
+        lb.setAttribute('aria-hidden','false');
+      });
+    });
+    document.getElementById('lightbox').addEventListener('click', (e)=>{
+      if(e.target.tagName==='IMG') return;
+      e.currentTarget.style.display = 'none';
+      e.currentTarget.setAttribute('aria-hidden','true');
+    });
+
+    // NOTE: contact form action is empty by default. To use Formspree or Netlify forms:
+    // - Formspree: set form action="https://formspree.io/f/YOUR_FORM_ID" method="POST"
+    // - Netlify: add data-netlify="true" to the form tag (deploy on Netlify)
+    // If leaving action empty the "mailto" button above is fallback.
+  </script>
+</body>
+</html>
